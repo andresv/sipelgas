@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1671,7 +1671,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2272,6 +2272,10 @@ design rules under a new name.</description>
 <wire x1="1.524" y1="5.322" x2="1.524" y2="5.588" width="0.254" layer="1"/>
 <wire x1="1.524" y1="5.588" x2="0.9652" y2="5.588" width="0.254" layer="1"/>
 <wire x1="0.9652" y1="5.588" x2="0.4572" y2="6.096" width="0.254" layer="1"/>
+<via x="13.335" y="16.637" extent="1-16" drill="0.3048" alwaysstop="yes"/>
+<via x="14.859" y="16.637" extent="1-16" drill="0.3048" alwaysstop="yes"/>
+<via x="14.859" y="15.113" extent="1-16" drill="0.3048" alwaysstop="yes"/>
+<via x="14.097" y="15.875" extent="1-16" drill="0.3048" alwaysstop="yes"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="1"/>
@@ -2918,58 +2922,6 @@ design rules under a new name.</description>
 <wire x1="19.554" y1="22.606" x2="21.0185" y2="22.606" width="0.254" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,5d24fea67ea6dd24"/>
-<approved hash="3,1,d9ecdbeedbeed9ec"/>
-<approved hash="7,39,64f6e7a322ee5872"/>
-<approved hash="7,39,64f6a1a831a84618"/>
-<approved hash="7,39,d41bc3648305c75d"/>
-<approved hash="7,39,64f6a1ba92284618"/>
-<approved hash="7,39,64f6e7a322ee5872"/>
-<approved hash="7,39,d41bc50e856fc75d"/>
-<approved hash="7,39,4132c26722ee7db6"/>
-<approved hash="7,39,4132a1a831a863dc"/>
-<approved hash="7,39,f1dfe0ca856fe299"/>
-<approved hash="7,39,4132a1ba922863dc"/>
-<approved hash="7,39,4132c26722ee7db6"/>
-<approved hash="7,39,f1dfe6a08305e299"/>
-<approved hash="7,39,78c659a9aa08f37a"/>
-<approved hash="7,39,0a4e183618c70abf"/>
-<approved hash="7,39,a068790705c2a4b0"/>
-<approved hash="7,39,78445a62a9d1f3d8"/>
-<approved hash="7,39,a0e67af00617a42e"/>
-<approved hash="7,39,0e4fee37eec60ebe"/>
-<approved hash="7,39,f9739440ea428771"/>
-<approved hash="7,39,6c9407e779e51296"/>
-<approved hash="7,39,c364043a9628460a"/>
-<approved hash="7,39,e6a0043a962863ce"/>
-<approved hash="7,39,858cfe40ea42918e"/>
-<approved hash="7,39,858ce899969ffb8e"/>
-<approved hash="7,39,6c9408c81cca7896"/>
-<approved hash="7,39,09fd62c81cca77fb"/>
-<approved hash="7,39,49064c6fe4518cc0"/>
-<approved hash="7,39,bb50162816d2bbaa"/>
-<approved hash="7,39,23c3d9221c3f8b26"/>
-<approved hash="7,39,bb6016181635bb4d"/>
-<approved hash="7,39,4106476991d7b140"/>
-<approved hash="7,39,8263c52245220263"/>
-<approved hash="7,39,28c3d12421b9fea6"/>
-<approved hash="7,39,c60d074d874d460d"/>
-<approved hash="7,39,38857946f946b885"/>
-<approved hash="7,39,6b4dff5811b0d30b"/>
-<approved hash="7,39,97e20db27e809ced"/>
-<approved hash="7,39,27877f5aa55ec57f"/>
-<approved hash="7,39,e3c2819da52f389a"/>
-<approved hash="7,39,502317639763d023"/>
-<approved hash="7,39,17874e5f7fdb1cff"/>
-<approved hash="19,1,75feff445c262aa6"/>
-<approved hash="19,1,c8cdb7a8ad753754"/>
-<approved hash="5,1,a318a305a705a718"/>
-<approved hash="5,1,9f349f0a680a6834"/>
-<approved hash="5,1,dd64dd11d911d964"/>
-<approved hash="5,1,1731170d640d6431"/>
-<approved hash="4,16,6820b5646dd7aa84"/>
-</errors>
 </board>
 </drawing>
 </eagle>
